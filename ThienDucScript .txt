@@ -40,16 +40,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
-local Settings = {
-JoinTeam = "Pirates"; -- Pirates/Marines
-Translator = true; -- true/false
 }
-getgenv().BETA_VERSION = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
   end
   })
-  
-  AddButton(Tab1o, {
+    AddButton(Tab1o, {
      Name = "ThienDucScript Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thienducscript-rgb/Hdhdhd/refs/heads/main/bananahub.txt"))()
