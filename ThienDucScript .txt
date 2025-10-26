@@ -40,8 +40,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
-}
-
 local Settings = {
 JoinTeam = "Pirates"; -- Pirates/Marines
 Translator = true; -- true/false
