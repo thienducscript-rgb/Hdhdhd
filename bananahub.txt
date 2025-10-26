@@ -1,7 +1,7 @@
 local v14 = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))();
 local v15 = v14:CreateWindow({
-    Title = "Hoang Nguyên Hub-Blox Fruit [ Premium ]",-- thay tên bạn muốn đặt
-    SubTitle = "By hoangnguyen",-- tên bạn
+    Title = "ThienDucScript Hub-Blox Fruit [ Premium ]",-- thay tên bạn muốn đặt
+    SubTitle = "By ThienDuc",-- tên bạn
     TabWidth = 160,
     Theme = "Dark",--màu
     Acrylic = false,
@@ -4390,7 +4390,7 @@ if Sea3 then
         end
         for v728, v729 in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v729:IsA("MeshPart") then
-                if (v729.MeshId == "rbxassetid://83190276951914") then --thay id ảnh vào
+                if (v729.MeshId == "rbxassetid://108610659764941") then --thay id ảnh vào
                     return v729;
                 end
             end
