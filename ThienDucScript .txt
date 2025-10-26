@@ -64,22 +64,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thienducscript-rgb/Hdhdhd/refs/heads/main/sourcescript.txt"))()
   end
   })
-  AddButton(Tab1o, {
-     Name = "Maru Hub free",
-    Callback = function()
-	  getgenv().Team = "Marines"loadstring(game:HttpGet("https://raw.githubusercontent.com/natoppo044/GGEZ/refs/heads/main/MaruHub.lua"))()
-   end
-   AddButton(Tab1o, {
-     Name = "Zis Roblox",
-    Callback = function()
-	  getgenv().Version = "V1"
-getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TlDinhKhoi/Xeter/refs/heads/main/Main.lua"))()
-  end
-  AddButton(Tab1o, {
-     Name = "Andepzai hub",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
-  end
   
