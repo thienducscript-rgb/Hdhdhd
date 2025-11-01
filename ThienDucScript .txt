@@ -64,4 +64,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/thienducscript-rgb/Hdhdhd/refs/heads/main/sourcescript.txt"))()
   end
   })
-  
+  AddButton(Tab1o, {
+     Name = "Ngọc Bổng",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/ngocbonggaming/script/refs/heads/main/NgocBongVn.lua"))()
+  end
+  })
+  AddButton(Tab1o, {
+     Name = "HNC Hub ×lucky",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/hnc-roblox/HNC_Hub/refs/heads/main/x10Luck.lua"))()
+  end
+  })
